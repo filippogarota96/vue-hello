@@ -6,7 +6,8 @@ const app = new Vue (
   {
     el:'#title',
     data: {
-      text: "Hello World!"
+      text: "Hello World!",
+      image: "img/landscape.jpg"
     }
   }
 );
