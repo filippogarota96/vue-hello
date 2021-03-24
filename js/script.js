@@ -8,6 +8,15 @@ const app = new Vue (
     data: {
       text: "Hello World!",
       image: "img/landscape.jpg"
+    },
+    methods: {
+      imgAppear: function() {
+        if (this.image == 'img/landscape.jpg') {
+          this.image = "img/landscape-2.jpg";
+        } else {
+          this.image = "img/landscape.jpg";
+        }
+      }
     }
   }
 );

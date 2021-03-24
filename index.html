@@ -11,8 +11,8 @@
 <body>
   <div id="title">
     <h1>{{ text }}</h1>
-    <input type="text" v-model="text" value="">
-    <img v-bind:src="image">
+    <img v-bind:src="image" class="hide">
+    <button @click="imgAppear">Click</button>
   </div>
 
 <script src="js/script.js" charset="utf-8"></script>
